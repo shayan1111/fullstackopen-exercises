@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open",
+    "start:test": "cross-env NODE_ENV=test node --watch app.js"
+  },
+  "devDependencies": {
+    "cypress": "^15.10.0"
+  }
+}
